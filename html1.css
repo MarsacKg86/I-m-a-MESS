@@ -1,0 +1,93 @@
+body, html {
+    background-image: url("losthtml1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+   
+}
+
+p { 
+    color: navy;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif; 
+}
+
+element:hover{
+    background-color: rgb(8,28,61);
+}
+
+h1 { 
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px; 
+    background-image: radial-gradient(white, yellow, orange);
+}
+h2 { 
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px; 
+    background-image: radial-gradient(white, yellow, orange);
+}
+}  
+#attention { 
+    color: rgb(56, 54, 51);
+    font-size: 24px;
+ }
+#italics {
+   font-style: italic;
+
+ }
+#bold {
+   font-weight: bolder;
+
+ }
+.fingerscrossed { 
+    text-align: center;
+    color: navy;
+    font-size: 34px; 
+    background-image: linear-gradient(rgb(6, 77, 87), grey, white);
+}        
+
+section {
+  display: inline-block; vertical-align: top; 
+  margin-left: 250px;
+  float: left;
+  width: 200px;
+  
+}
+
+article {
+  display: inline-block; vertical-align: top;
+  margin-right: 100px;
+  float: right;
+  width: 200px;
+
+  
+  
+}
+
+aside {
+    display: inline-block;
+    border: 8px dashed crimson;
+    height: 175px;
+    margin-top: 385px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 110px;
+    float: right;
+    font-variant: small-caps;
+    color: azure;
+    background-color: rgb(15, 87, 109);
+}  
+
+footer {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 200px;
+    margin-top: 275px;
+    font-size: 15px;
+    color: crimson;
+    
+}
