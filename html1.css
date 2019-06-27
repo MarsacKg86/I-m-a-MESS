@@ -3,19 +3,20 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
+    
    
 }
 
 p { 
     color: navy;
-    font-size: 20px;
-    font-family:'Montserrat', sans-serif; 
-}
+    font-size: 50px;
+    font-family: 'Crimson Text', serif; 
+    background-color: rgb(40,70,117);
+} 
 
-element:hover{
+/* element:hover{
     background-color: rgb(8,28,61);
-}
+}  */
 
 h1 { 
     text-align: center;
@@ -29,17 +30,24 @@ h2 {
     font-size: 30px; 
     background-image: radial-gradient(white, yellow, orange);
 }
-}  
+  
 #attention { 
-    color: rgb(56, 54, 51);
-    font-size: 24px;
+    color: rgb(102,227,98);
+    font-size: 20px;
+    font-variant: small-caps;
  }
 #italics {
+   color:rgb(178,237,175);
    font-style: italic;
+   font-size: 25px;
+   font-variant: small-caps;
 
  }
 #bold {
+   color: rgb(7, 110, 4);
+   font-size: 25px;
    font-weight: bolder;
+   font-variant: small-caps;
 
  }
 .fingerscrossed { 
@@ -69,7 +77,7 @@ article {
 
 aside {
     display: inline-block;
-    border: 8px dashed crimson;
+    border: 8px dashed black;
     height: 175px;
     margin-top: 385px;
     margin-bottom: 8px;
@@ -77,8 +85,9 @@ aside {
     margin-left: 8px;
     width: 110px;
     float: right;
-    font-variant: small-caps;
-    color: azure;
+    font-family: 'Crimson Text', serif;
+    color: rgb(181, 221, 148);
+    text-shadow: 1px 1px rgb(5, 41, 41) ;
     background-color: rgb(15, 87, 109);
 }  
 
@@ -88,6 +97,7 @@ footer {
     margin-bottom: 200px;
     margin-top: 275px;
     font-size: 15px;
-    color: crimson;
+    color: rgb(153, 44, 66);
+    text-shadow: 1.5px 1.5px black;
     
 }
